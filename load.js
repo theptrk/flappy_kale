@@ -1,8 +1,8 @@
 var load_state = {
 	preload: function () {
-		this.game.stage.backgroundColor = '#71c5cf';
-		this.game.load.image('bird', 'assets/kale50redgone.png');
-		this.game.load.image('pipe', 'assets/mean_star.png');
+		this.game.stage.backgroundColor = '#000';
+		this.game.load.image('kale', 'assets/kale50redgone.png');
+		this.game.load.image('star', 'assets/mean_star.png');
 		this.game.load.image('space', 'assets/space.jpeg');
 		this.game.load.audio('jump', 'assets/mariojump.wav');
 		this.game.load.audio('bump', 'assets/mariodie.wav');
